@@ -184,9 +184,10 @@ span {
 }
 
 /* instagram section css code here */
-.instagram-section{
-    margin: 140px;
+.instagram-section {
+    margin: 120px;
 }
+
 .instagram-img {
     display: flex;
     justify-content: center;
@@ -194,7 +195,41 @@ span {
     padding-top: 50px;
 }
 
-.instagram-img img{
+.instagram-img img {
     width: 250px;
     height: 300px;
+}
+
+/* subcription section css code here */
+.subcription-section {
+    background: url("images/deals_bg.png");
+    background-repeat: no-repeat;
+    padding: 80px;
+    margin: 100px 200px;
+    border-radius: 8px;
+}
+
+.subcription{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+.subcription-form {
+    padding-top: 20px;
+    padding-left: 120px;
+    margin-bottom: 500px;
+    gap: 50px;
+}
+
+.subcription-form .email-form {
+    height: 60px;
+    width: 550px;
+    border: none;
+    border-radius: 8px;
+}
+
+::placeholder{
+    padding-left: 15px;
 }
