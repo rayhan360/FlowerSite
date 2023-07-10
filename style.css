@@ -101,13 +101,41 @@ body {
     width: 220px;
     height: 310px;
     padding: 50px 50px 0 50px;
+    /* padding-top: 10px; */
 }
 
-.features-img-title{
+.features-img-title {
     display: flex;
     margin: 30px 50px 10px 50px;
     justify-content: center;
     gap: 280px;
     margin-top: 10px;
     text-decoration-line: underline;
+}
+
+.policy {
+    border-radius: 8px;
+    background-color: #2727270D;
+    padding: 80px;
+    margin: 100px 220px;
+}
+
+.policy-item {
+    display: flex;
+    /* margin: 200px 50px 10px 50px; */
+    justify-content: space-evenly;
+}
+
+.policy {
+    text-align: center;
+}
+
+.title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+}
+
+.policy-img{
+    height: 70px;
+    width: 70px;
 }
