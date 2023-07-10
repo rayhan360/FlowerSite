@@ -23,6 +23,24 @@ body {
     background-color: coral;
 }
 
+.primary-text {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.primary-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.primary-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
 /* header section css here */
 .intro-section {
     background: rgba(229, 84, 115, 0.10);
@@ -58,23 +76,7 @@ body {
 }
 
 /* features section css here */
-.featurs-text {
-    text-align: center;
-    margin-top: 120px;
-}
 
-.featurs-heading {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.features-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-weight: 400;
-    padding-top: 10px;
-}
 
 .features-img {
     display: flex;
@@ -172,11 +174,27 @@ span {
     font-size: 15px;
 }
 
-#button{
+#button {
     margin-left: 120px;
 }
 
-.discount-img img{
+.discount-img img {
     width: 250px;
     height: 350px;
+}
+
+/* instagram section css code here */
+.instagram-section{
+    margin: 140px;
+}
+.instagram-img {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.instagram-img img{
+    width: 250px;
+    height: 300px;
 }
