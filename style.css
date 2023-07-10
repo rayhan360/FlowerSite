@@ -57,6 +57,7 @@ body {
     padding-top: 15px;
 }
 
+/* features section css here */
 .featurs-text {
     text-align: center;
     margin-top: 120px;
@@ -113,6 +114,8 @@ body {
     text-decoration-line: underline;
 }
 
+/* policy section css here */
+
 .policy {
     border-radius: 8px;
     background-color: #2727270D;
@@ -135,7 +138,45 @@ body {
     font-size: 15px;
 }
 
-.policy-img{
+.policy-img {
     height: 70px;
     width: 70px;
+}
+
+/* discount section css here */
+.discount-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #E554730D;
+    padding: 80px;
+}
+
+.discount-title,
+.discount-description {
+    text-align: center;
+}
+
+span {
+    color: #E55473;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.discount-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+}
+
+#button{
+    margin-left: 120px;
+}
+
+.discount-img img{
+    width: 250px;
+    height: 350px;
 }
