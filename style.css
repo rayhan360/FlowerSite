@@ -201,35 +201,66 @@ span {
 }
 
 /* subcription section css code here */
-.subcription-section {
-    background: url("images/deals_bg.png");
+.subscription {
+    background-image: url("images/deals_bg.png");
+    border-radius: 7px;
+    padding: 100px;
+    margin: 100px 175px;
     background-repeat: no-repeat;
-    padding: 80px;
-    margin: 100px 200px;
-    border-radius: 8px;
 }
 
-.subcription{
-    display: flex;
-    flex-direction: column;
-    height: 85vh;
-    align-items: center;
-    justify-content: center;
-}
-.subcription-form {
-    padding-top: 20px;
-    padding-left: 120px;
-    margin-bottom: 500px;
-    gap: 50px;
+.subscription-section-text {
+    text-align: center;
+    line-height: 15px;
+    padding-bottom: 40px;
 }
 
-.subcription-form .email-form {
-    height: 60px;
-    width: 550px;
-    border: none;
-    border-radius: 8px;
+.subscription-input {
+    text-align: center;
 }
 
-::placeholder{
-    padding-left: 15px;
+.input-email {
+    width: 500px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 7px 0 7px 10px;
+}
+
+.description{
+    line-height: 3;
+}
+
+/* footer section css code here */
+
+.footer{
+    background-color: #111010;
+}
+.footer-text{
+    text-align: center;
+    line-height: 15px;
+    padding: 130px;
+}
+.footer-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 3;
+}
+.shop{
+    color: #E55473;
+}
+.footer-description{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFFE5;
+    /* line-height: 3; */
+}
+.copyright{
+    text-align: center;
+    color: #FFFFFF66;
+    line-height: 5;
 }
